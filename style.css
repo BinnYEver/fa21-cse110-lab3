@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+.header {
+    
+    height: 42px;
+    /* background-color: pink; */
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 42px;    
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.nav {
+    margin-left: 60px;
+}
+.nav span ul li{
+    float: left;
+    list-style: none;
+    padding: 0 15px;
+}
+
+.nav span ul li a {
+    display: block;
+    height: 42;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 18px;
+    color: black;
+    
+}
+
+.nav span ul li a:hover {
+    border-bottom: #e4a400 solid 2px;
+}
+
+.banner {
+    height: 420px;
+    background-color: #182b49;
+    margin-bottom: 70px;
+}
+.banner .w {
+    
+    background: url(UCSDbackground.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+.subnav {
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.subnav ul li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+
+.subnav ul li a{
+    font-size: 14px;
+    color: #fff;
+}
+.subnav ul li a span {
+    float: right;
+}
+
+.subnav ul li a:hover {
+    color: pink;
+    border-bottom: #e4a400 solid 2px;
+
+}
+
+.maintitle w {
+    
+    height: 45px;
+    
+}
+.maintitle h1 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subtitle {
+    
+    margin-bottom: 1in;
+}
+
+.subtitle w {
+    height: 1cm;
+    
+}
+.subtitle h6 {
+    
+    text-align: center;
+    font-size: 2ex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.part1 {
+    height: 250px;
+    background-color: #182b49;
+    
+}
+
+.part1 h2 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 40px;
+}
+
+.part1 ul li {
+    list-style: none;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.3);
+    padding: 10px 10px;
+}
+
+.part2 {
+    height: 300px;    
+}
+
+.part2 h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 40px;
+}
+
+@media all and (max-width:500px) {
+    .part2 h2 {
+        color: purple;  
+    }
+}
+.part2 ol li {
+
+    color: #182b49;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px 10px;
+}
+
+.part2 ol li:hover {
+    color: pink;
+    border-bottom: #e4a400 solid 2px;
+}
+
+.part3 {
+    height: 300px;
+    background-color: #182b49;
+}
+.part3 h2 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 40px;
+}
+
+.part3 p {
+    color: white;
+    font-family: cursive;
+    padding: 20px 20px;
+}
+
+.part3 p .inlineapplied {
+    display: inline;
+}
+.part3 .github {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    padding: 20px 20px;
+}
+.part3 .github a[href] {
+    
+    font-size: 2vmax;
+    font-family:sans-serif;
+    color: pink;
+}
+
+.part4 {
+    height: 500px;
+}
+.part4 h2 {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 40px;
+}
+
+.part4 p {
+    color: #182b49;
+    font-family: cursive;
+    padding: 5px 5px;
+}
+.part4 h2 ~ p{
+    color: red;
+    font-family: cursive;
+    padding: 5px 5px;
+}
+
+.part4 .detailsSection {
+    height: 200px;
+    max-width: 2000px;
+    min-width: 1000px;
+}
+
+.part4 .detailsSection .prompt {
+    text-align: center;
+    color: #182b49;
+    font-family: cursive;
+    padding: 20px 20px;
+}
+
+.part4 .detailsSection details summary {
+    
+    text-align: center;
+    color: goldenrod;
+    font-family: cursive;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.part4 .videos {
+    max-height: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.part5 {
+    height: 600px;
+    background-color: #182b49;
+}
+.part5 section{
+    position: relative;
+}
+
+
+.part5 section h2 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 40px;
+}
+
+.part5 section p {
+    color: hsl(30, 100%, 50%);
+    font-family: cursive;
+    padding: 20px 20px;
+}
+
+.part5 section h2 + p {
+    color: hsl(10, 100%, 50%);
+    font-family: cursive;
+    padding: 20px 20px;
+}
+
+.part5 section .container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.part5 section .container .methodone, .methodtwo, .methodthree{
+    border: 1px white solid;
+    padding: 10px;
+}
+
+
+.part6 {
+    height: 600px;
+}
+
+.part6 h2 {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 40px;
+}
+
+.part6 p {
+    color: #182b49;
+    font-family: cursive;
+    padding: 5px 5px;
+}
+
+
+.part6 form {
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.part6 form .information {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+label {
+    font-size: 1rem;
+    padding: 0.2rem 0.2rem;
+    font-weight: 300;
+    color: skyblue;
+    text-align: right;
+}
+
+.part6 form fieldset {
+    padding-left: 8rem;
+    margin: 1rem 0;
+    
+}
+
+.part6 form fieldset > legend {
+    margin-left: -6rem;
+    border-color: skyblue;
+    border-radius: 0.1rem;
+    color: skyblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    line-height: 1;
+}
+.part6 .buttons {
+    background-color: salmon;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: salmon;
+    border-width: 2px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.part6 .buttons:active{
+    background-color: skyblue;
+    border-color: skyblue;
+}
+
+.part6 .buttons span a{
+    color: white;
+    
+    
+}
+
+
