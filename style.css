@@ -215,7 +215,7 @@ a {
     font-family: cursive;
     padding: 5px 5px;
 }
-.part4 h2 ~ p{
+.part4 #finishingLeftovers ~ p{
     color: red;
     font-family: cursive;
     padding: 5px 5px;
@@ -293,6 +293,7 @@ a {
 
 .part6 {
     height: 600px;
+    margin: 200px;
 }
 
 .part6 h2 {
@@ -368,4 +369,39 @@ label {
     color: white;
     
     
+}
+
+.part7 {
+    height: 100px;
+    text-align: center;
+}
+.part7 audio{
+    max-height: 100px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer {
+    height: 200px;
+    background-color: #182b49;
+}
+
+.footer h4{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 40px;
+}
+
+.footer ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+
+}
+.footer ul li a {
+    color: plum;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
