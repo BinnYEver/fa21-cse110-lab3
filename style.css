@@ -355,13 +355,13 @@ label {
     margin: 10px 10px 10px 10px;
 }
 .part6 .buttons:hover {
-    background-color: plum;
-    border-color: plum;
+    background-color: skyblue;
+    border-color: skyblue;
 }
 
 .part6 .buttons:active{
-    background-color: skyblue;
-    border-color: skyblue;
+    background-color: plum;
+    border-color: plum;
 }
 
 .part6 .buttons span a{
